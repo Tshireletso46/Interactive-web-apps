@@ -14,4 +14,4 @@ if (hourOfDay == 00 && minuteOfDay == 00){
 	const balance = startingAfterTax - transport - food - rent
 console.log(balance.toFixed(2))
 }
-	
+	 
