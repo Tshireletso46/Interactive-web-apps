@@ -16,4 +16,4 @@ const sarah = `${sarahName +  sarahSurname} Owed: R ${parseFloat(-sarahBalance).
 const total = `\n Total amount owed: ${owed} \n`
 const result = leo + sarah + divider + total + divider
 console.log(result)
- 
+  
