@@ -1,5 +1,5 @@
-const nickname = "";
-const firstname = "";
+const nickname = "Timmy";
+const firstname = "Timothy";
 const value = `${nickname || firstname}`
 
 if (value == undefined) {
