@@ -3,6 +3,7 @@ const leoNumber = '2'
 const leoStreet = 'Church St.'
 const leoPostal = '3105'
 const leoBalance = '-10'
+
 const sarahName = 'Sarah'
 const sarahSurname = 'Kleinhans'
 const sarahBalance = '-4582.21000111'
