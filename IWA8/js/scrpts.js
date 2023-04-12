@@ -37,3 +37,8 @@ const sarah = {
 console.log(leo, leo.address)
 console.log(sarah, sarah.address)
 
+/**
+ * Used two objects to define both leo and sarah
+ * Used camel case to remove the -
+ * We assign objects to the properties so that it can display the name, address, postal code, balance
+ */
