@@ -36,3 +36,11 @@ const type = parseInt(rent ['large-apartment'])
 const balance = startingAfterTax - (expenses.transport + expenses.food + type) 
 console.log(balance.toFixed(2))
 
+/**
+ * In this code we have three objects being expenses, tax and rent
+ * Used parseint function to parse the variable which stores the tax percentage to a decimal number
+ * Starting after tax is the salary received after tax hence multilpied salary by the tax as decimal and minused   the solution from the original salary to see how much is left after tax
+ * parsed the integer to rent type as it is a string
+ * The balance calculates the remaining balance after subtracting all the objects
+ * Then finally log the balance to 2 decimal places.
+ */
