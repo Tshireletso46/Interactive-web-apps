@@ -34,3 +34,10 @@ document.querySelector('[data-key="order3"] .donuts .count').innerText = thirdDo
 document.querySelector('[data-key="order3"] .pancakes .count').innerText = thirdPancakes
 document.querySelector('[data-key="order3"] .status dd').innerText = thirdDelivery
 
+/**
+ * document.querySelector() to retrieve their attributes and update their content.
+ *For each order, the code selects the corresponding HTML element using document.querySelector('[data-key="orderX"]')
+ *,where X is the order number. 
+ *It then retrieves the values of the data-biscuits, data-donuts, data-pancakes, and data-delivered attributes using
+ *.getAttribute(), and stores them in variables named after their respective attributes and order numbers.
+*/
