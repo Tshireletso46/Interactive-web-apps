@@ -84,7 +84,12 @@ statusText3.style.color = STATUS_MAP[currentStatus3].color
 // Set the checkin button to grayscale
 checkinBtn3.style.color = ''
 
-
+/**
+ * Using the currentStatus value, the program updates the disabled attribute of each button based on the canReserve,
+ * canCheckout, and canCheckIn properties of the corresponding STATUS_MAP object. 
+ * Additionally, the program sets the color property of the status text element and 
+ * sets the color property of the checkin button to an empty string to remove any grayscale styling.
+ */
 
 
 
