@@ -46,3 +46,13 @@ result.push(extractBiggest())
 result.push(extractBiggest())
 
 console.log(result)
+
+/**
+ * the code defines a function called extractBiggest
+ * that uses conditional statements to determine which array has the biggest last number and 
+ *returns that number by popping it off the array.
+ *
+ * Overall, the code extracts the biggest number from the arrays in data.lists 
+ * in a specific order and stores them in the result array. 
+ * The resulting array will contain the 15 largest numbers from the original arrays, sorted in descending order.
+ */
