@@ -66,28 +66,34 @@ const data = {
 // Only edit below this comment
 
 const createHtml = (athlete) => {
-  //  reassign the variables
+  //  reassigning the variables
   const firstName = data.response.data[athlete].firstName;
   const surname = data.response.data[athlete].surname;
   const id = data.response.data[athlete].id;
   const races = (data.response.data[athlete].races).length
   const date = new Date(data.response.data[athlete].races[races-1].date)
   const time = data.response.data[athlete].races[races-1].time;
+
   const fragment = document.createDocumentFragment();
+  
   let title = document.createElement('h2');
   title.textContent = id
   fragment.appendChild(title);
+  
   const list = document.createElement('dl');
+  
   const day =  date.getDate()
   const month = MONTHS[date.getMonth()];
   const year = date.getFullYear();
   console.log(month)
+
   let sum = 0
   let i = 0;
   while ( i < time.length ) {
     sum += time[i]
     i++
   }
+
   const minutes = sum % 60;
   const hours = (sum - minutes) / 60;
   list.innerHTML = /* html */ `
@@ -103,7 +109,10 @@ const createHtml = (athlete) => {
 document.querySelector('[data-athlete = "NM372"]').appendChild(createHtml('NM372'));
 document.querySelector('[data-athlete ="SV782"]').appendChild(createHtml('SV782'));
 
-
+/**
+ * Created a fuction called "createHtml" focusing on the athlete's ID so that we can use it as an argumemnt.
+ * Used the properties in the data object to create an HTML element which contains the athlete's latest race, time and date
+ */
 
 
 
