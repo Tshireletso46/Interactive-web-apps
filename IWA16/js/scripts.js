@@ -96,6 +96,7 @@ const createHtml = (athlete) => {
 
   const minutes = sum % 60;
   const hours = (sum - minutes) / 60;
+  
   list.innerHTML = /* html */ `
       <dt>Athlete: ${firstName +' '+ surname}</dt>
       <dt>Total Races: ${races}</dt>
