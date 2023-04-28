@@ -29,7 +29,7 @@ const createData = function(){
     current.setDate(1);
     const startDay = current.getDay();
     const daysInMonth = getDaysInMonth(current);
-    const weeks = createArray(6);
+    const weeks = createArray(5);
     const days = createArray(7);
      let result = [] //value = null
     for (let weekIndex = 0; weekIndex < weeks.length; weekIndex++) {
